@@ -42,7 +42,7 @@ void testRemoveKey() {
     assert(checkList(list, {1, 2, 6, 7, 8}));
     
     // Удаляем с некорректными границами
-    list.removeKey(5, 1); 
+    list.removeKey(5, 1);  // ошибка
     assert(checkList(list, {1, 2, 6, 7, 8}));
     
     testPassed();
